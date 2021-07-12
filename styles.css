@@ -55,6 +55,10 @@
         font-size: 2vw;
         font-family: 'Raleway', sans-serif;
     }
+    h3 {
+      font-size: 1.5vw;
+      font-family: 'Raleway', sans-serif;
+    }
     .black-logo {
       width: 5vh;
       height: 5vh;
@@ -85,7 +89,7 @@
     }
     p {
         color:rgba(0, 0, 0, 0.659);
-        font-size: 1vw;
+        font-size: 1.5vh;
         margin-left: auto;
         margin-right: auto;
     }
