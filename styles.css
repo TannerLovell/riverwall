@@ -114,7 +114,10 @@
           font-size: 5vw;
       }
       h2 {
-          font-size: 5vw;
+          font-size: 5vh;
+      }
+      h3 {
+        font-size: 3vh;
       }
       .card {
           margin-left: 0 auto;
@@ -123,7 +126,7 @@
       img {
           margin-left: 0;
       }
-      .donate-button{
+      #header-donate-button{
         display: none;
       }
       .fixed-header{
