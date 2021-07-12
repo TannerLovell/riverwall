@@ -1,0 +1,173 @@
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        padding-top: 10%;
+    }
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      z-index: 999;
+      background-color: white;
+      display: inline-flex;
+      flex-direction: row;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    .main-container {
+        width: 100vw;
+        align-content: center;
+    }
+    .header-title {
+      margin-left: 20%;
+      margin-right: auto;
+    }
+    .donate-button {
+      margin: auto;
+      margin-right: 20px;
+      margin-left: 20px;
+      font-size: 1.5vh;
+      padding: 1vh 3vh;
+      background-color: #d91378;
+      color: white;
+      border-radius: 8px;
+      box-shadow: rgba(153, 153, 153, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .donate-button:hover{
+      background-color: #fc198e;
+      transition: all .3s;
+      padding: 16px 32px;
+    }
+    .home-link{
+      text-decoration: none;
+      color: #d91378;
+      margin: auto;
+      font-size: 1.5vh;
+    }
+    h1 {
+        text-align: center;
+        font-size: 3.5vw;
+        font-family: 'Raleway', sans-serif;
+    }
+    h2 {
+        font-size: 2vw;
+        font-family: 'Raleway', sans-serif;
+    }
+    .black-logo {
+      width: 5vh;
+      height: 5vh;
+      margin: auto 0;
+      padding-left: 10%;
+    }
+    .mural-container{
+      display: inline-flex;
+      flex-direction: row;
+      margin: 0 10%;
+    }
+    .mural {
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        max-height: 60vh;
+        animation: fadeIn 5s;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .card {
+        max-width: 60%;
+        margin: auto;
+        padding: 25px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+    }
+    p {
+        color:rgba(0, 0, 0, 0.659);
+        font-size: 1vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    b {
+      font-weight: 900;
+      font-size: 1.25vw;
+    }
+    i {
+      font-size: 1.5vh;
+    }
+
+    @media only screen and (max-width: 576px) {
+      body{
+        padding-top: 20%;
+      }
+      p {
+          font-size: 3.5vw;
+          text-align: left;
+          max-width: 100%;
+      }
+      h1 {
+          font-size: 5vw;
+      }
+      h2 {
+          font-size: 5vw;
+      }
+      .card {
+          margin-left: 0 auto;
+          max-width: 80%;
+      }
+      img {
+          margin-left: 0;
+      }
+      .donate-button{
+        display: none;
+      }
+      .fixed-header{
+        height: 7vh;
+        justify-content: center;
+      }
+      .header-title{
+        margin: auto;
+        margin-left: 10%;
+      }
+      .home-link{
+        margin: auto;
+        font-size: 1vh;
+        display: none;
+      }
+    }
+
+    /* Animations */
+    .animate {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    .one {
+        -webkit-animation-delay: 0.5s;
+        -moz-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+    }
+    @-webkit-keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        
+        to {
+            opacity: 1;
+        }
+        }
+        @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        
+        to {
+            opacity: 1;
+        }
+        }
+    .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+        }
